@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+
+:root {
+    --sunset1:#332971;
+      --sunset2:#814166;
+      --sunset3:#e67369;
+      --sunset4:#feb05f;
+      --sunset5:#ffd043;
+   }
+
+* {
+    
+    background-color: var(--sunset4); 
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: wheat;
+}
+
+button {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Fontdiner Swanky', cursive;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.footer {
+    max-width: 30%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    max-width: 2.5rem;
+    margin: 0.5rem;
+}
+
+footer p {
+    font-size: small;
+    text-align: center;
+}
